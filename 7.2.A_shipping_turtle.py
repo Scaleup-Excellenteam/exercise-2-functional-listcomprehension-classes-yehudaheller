@@ -23,6 +23,7 @@ class PostOffice:
         Returns:
             list: The list of messages.
         """
+
         messages = self.boxes[username]
         if not messages:
             return []
